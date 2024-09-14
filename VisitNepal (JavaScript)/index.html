@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagun Blog</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">
+            <h2><b><i>Sagun</i></b> <span>_BLOG</span></h2>
+        </div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="icon">
+            <i class="fa fa-search"></i>
+            <a href="#">Login</a>
+        </div>
+    </nav>
+    <section class="h-text" id="home">
+        <i class="fa fa-camera" id="camera"></i>
+        <h1 data-aos="fade-up">Visit Nepal 2025, where beauty comes with culture</h1>
+        <input type="text" name="search" placeholder="Search here">
+        <button><i class="fa fa-search"></i></button>
+    </section>
+</header>
+
+<section class="filter-gallery" id="gallery">
+    <div class="portfolio-menu">
+        <ul>
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".nature">Nature</li>
+            <li data-filter=".culture">Culture</li>
+            <li data-filter=".people">People</li>
+        </ul>
+    </div>
+    <div class="portfolio-item">
+        <div class="item nature" data-aos="flip-left" 
+        data-aos-offset="200" data-aos-delay="100">
+            <img src="images/nature.jpeg" alt="Nature Image">
+        </div>
+        <div class="item culture"  data-aos="flip-left" 
+        data-aos-offset="200" data-aos-delay="200">
+            <img src="images/dashain.jpeg" alt="Dashain Image">
+        </div>
+        <div class="item people"  data-aos="flip-left" 
+        data-aos-offset="200" data-aos-delay="300">
+            <img src="images/sakela.jpeg" alt="People Image">
+        </div>
+        <div class="item nature"  data-aos="zoom-in-up" 
+        data-aos-offset="200" data-aos-delay="100">
+            <img src="images/nature2.jpeg" alt="Nature Image">
+        </div>
+        <div class="item culture" data-aos="zoom-in-up" 
+        data-aos-offset="200" data-aos-delay="200">
+            <img src="images/tihar.jpeg" alt="Tihar Image">
+        </div>
+        <div class="item people" data-aos="zoom-in-up" 
+        data-aos-offset="200" data-aos-delay="300">
+            <img src="images/member.jpeg" alt="People Image">
+        </div>
+        <div class="item nature" data-aos="zoom-in-up" 
+        data-aos-offset="200" data-aos-delay="300">
+            <img src="images/nature3.jpg" alt="Wedding Image">
+        </div>
+        <div class="item culture" data-aos="zoom-in-up" 
+        data-aos-offset="200" data-aos-delay="300">
+            <img src="images/losar.jpeg" alt="Loshar Image">
+        </div>
+        <div class="item people" data-aos="zoom-in-up" 
+        data-aos-offset="200" data-aos-delay="300">
+            <img src="images/m1.jpeg" alt="Member Image">
+        </div>
+    </div>
+</section>
+
+<section class="member" id="about">
+    <div class="member-info" data-aos="zoom-in-up" 
+    data-aos-offset="200" data-aos-delay="100">
+        <h1>Our <span>Information</span></h1>
+        <p>What our people say about Visit Nepal 2025</p>
+    </div>
+    <div class="member-card" data-aos="zoom-in-down" 
+    data-aos-offset="200" data-aos-delay="200">
+        <img src="images/member.jpeg" alt="Member Image">
+        <p>Join us in celebrating Visit Nepal 2025, a campaign showcasing the cultural heritage and natural beauty of Nepal. Explore the rich traditions, festivals, and stunning landscapes that make Nepal a unique destination for travelers.</p>
+        <h2>Sagun Rai</h2>
+        <div class="social-icons">
+            <img src="images/facebook.png" width="50" alt="Facebook">
+            <img src="images/instragram.png" width="50" alt="Instagram">
+            <img src="images/twitter.png" width="50" alt="Twitter">
+            <img src="images/whatsapp.png" width="50" alt="WhatsApp">
+        </div>
+    </div>
+    <div class="m-images"  data-aos="zoom-in-up" data-aos-offset="200">
+        <img src="images/m1.jpeg">
+        <img src="images/m2.jpg">
+        <img src="images/m3.jpeg">
+        <img src="images/m4.jpeg">
+        <img src="images/m5.jpeg">
+    </div>
+</section>
+
+<footer id="contact">
+    <div class="newsletter">
+        <div  data-aos="zoom-in"   data-aos-offset="200">
+            <h2>Subscribe to our Visit Nepal 2025 newsletter</h2>
+            <p>Stay updated with the latest news and events about Visit Nepal 2025. Discover the beauty and culture of Nepal as we prepare to welcome visitors from around the world.</p>
+        </div>
+        <div class="ntext">
+            <label>
+                <input type="email" name="email" placeholder="Enter your Email">
+                <button>Subscribe</button>
+            </label>
+        </div>
+    </div>
+    <div class="f-contact" data-aos="zoom-in-up" data-aos-offset="200">
+        <div>
+            <h1>Information</h1>
+            <p>Get in touch with us to learn more about Visit Nepal 2025. Let's explore the vibrant culture, beautiful landscapes, and warm hospitality that Nepal has to offer.</p>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-telegram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div>
+            <h1>Useful links</h1>
+            <p>About Us</p>
+            <p>Gallery</p>
+            <p>Blog posts</p>
+            <p>Pricing plans</p>
+        </div>
+        <div>
+            <h1>Details</h1>
+            <p>Photograph</p>
+            <p>Gallery</p>
+            <p>About</p>
+            <p>Pricing plans</p>
+        </div>
+        <div>
+            <h1>Help & Support</h1>
+            <p>Privacy policy</p>
+            <p>Terms and conditions</p>
+            <p>Technical Support</p>
+            <p>Customer care</p>
+        </div>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-KyZXEAg3QhqLMpG8r+Knujsl5/1hbw5b7Xjs5lWIlQ0=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
